@@ -86,12 +86,14 @@ p {
 }
 
 /************** G E N E R A L    S T Y L E ***************/
+
 #wrapper {
   width: 950px;
+
   margin: 16px auto;
   background-color: #121212;
   padding: 20px 20px;
-  box-shadow: 0 4px 6px #000;
+  /* box-shadow: 0 4px 6px #000; */
 }
 
 body {
@@ -99,7 +101,7 @@ body {
   font-family: Source, Tahoma, sans-serif;
   color: #fff;
   font-size: 14px;
-  text-shadow: 1px 1px 0px #000;
+  /* text-shadow: 1px 1px 0px #000; */
 }
 #srt {
   color: #f9f9f9;
@@ -108,7 +110,7 @@ body {
   position: absolute;
   top: 14px;
   left: 180px;
-  text-shadow: 1px 1px 0px #000;
+  /* text-shadow: 1px 1px 0px #000; */
   font-size: 36px;
   font-style: italic;
   font-family: ethno, sans-serif;
@@ -145,7 +147,7 @@ header h2 {
   font-weight: normal;
   font-family: LeagueGothic, sans-serif;
   width: 170px;
-  text-shadow: 1px 1px 0 #000;
+  /* text-shadow: 1px 1px 0 #000; */
   text-transform: uppercase;
 }
 #tagline {
@@ -169,7 +171,7 @@ nav a {
   font-size: 1.5em;
   margin-left: 25px;
   text-transform: uppercase;
-  text-shadow: 1px 1px 0px #000;
+  /* text-shadow: 1px 1px 0px #000; */
 }
 
 nav {
@@ -205,7 +207,7 @@ header {
   font-family: LeagueGothic, Impact, sans-serif;
   font-weight: normal;
   text-transform: uppercase;
-  text-shadow: 1px 1px 0px #000;
+  /* text-shadow: 1px 1px 0px #000; */
   display: inline;
 }
 #banner .rm {
@@ -224,7 +226,7 @@ header {
   font-size: 30px;
   text-transform: uppercase;
   color: #f8f8f8;
-  text-shadow: 2px 2px 0 #000;
+  /* text-shadow: 2px 2px 0 #000; */
   text-align: center;
 }
 #line h1,
@@ -244,6 +246,7 @@ header {
   margin-bottom: 10px;
 }
 #ourserv article {
+  color: #000;
   width: 275px;
   display: inline-block;
   *display: inline;
@@ -295,7 +298,7 @@ header {
   font-size: 30px;
   text-transform: uppercase;
   color: #f5f5f5;
-  text-shadow: 2px 2px 0 #000;
+  /* text-shadow: 2px 2px 0 #000; */
   text-align: center;
 }
 #sline h1,
@@ -364,7 +367,7 @@ header {
   font-weight: normal;
   text-transform: uppercase;
   font-size: 22px;
-  text-shadow: 1px 1px 0 #000;
+  /* text-shadow: 1px 1px 0 #000; */
   word-spacing: 2px;
   margin-bottom: 5px;
 }
@@ -382,7 +385,7 @@ header {
   text-decoration: underline;
 }
 #blog article img {
-  box-shadow: 0 4px 6px #000;
+  /* box-shadow: 0 4px 6px #000; */
   margin-bottom: 10px;
 }
 #sidebar h1,
@@ -391,7 +394,7 @@ header {
   font-weight: normal;
   text-transform: uppercase;
   font-size: 22px;
-  text-shadow: 1px 1px 0 #000;
+  /* text-shadow: 1px 1px 0 #000; */
   word-spacing: 2px;
   margin-bottom: 4px;
 }

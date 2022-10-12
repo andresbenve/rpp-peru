@@ -56,6 +56,7 @@ img {
 * {
   margin: 0;
   padding: 0;
+
   list-style: none;
 }
 img {
@@ -87,19 +88,26 @@ p {
 
 /************** G E N E R A L    S T Y L E ***************/
 #wrapper {
-  width: 950px;
-  margin: 16px auto;
-  background-color: #121212;
+  background-color: #fff;
   padding: 20px 20px;
   box-shadow: 0 4px 6px #000;
+  align-items: stretch;
+  text-align: center;
 }
 
 body {
-  background: url("../images/bg.png") repeat;
+  /* background: url("../images/bg.png") repeat; */
   font-family: Source, Tahoma, sans-serif;
-  color: #fff;
+  color: #000;
   font-size: 14px;
-  text-shadow: 1px 1px 0px #000;
+  /* display: flex;
+  justify-content: center; */
+
+  /* text-shadow: 1px 1px 0px #000; */
+}
+.center {
+  display: flex;
+  justify-content: center;
 }
 #srt {
   color: #f9f9f9;
@@ -108,7 +116,7 @@ body {
   position: absolute;
   top: 14px;
   left: 180px;
-  text-shadow: 1px 1px 0px #000;
+  /* text-shadow: 1px 1px 0px #000; */
   font-size: 36px;
   font-style: italic;
   font-family: ethno, sans-serif;
@@ -135,7 +143,8 @@ header h1 {
   font-weight: normal;
   text-transform: uppercase;
   font-size: 2.5em;
-  text-shadow: 1px 1px 0 #000;
+  color: #000;
+  /* text-shadow: 1px 1px 0 #000; */
   position: relative;
   width: 300px;
   margin-bottom: 2px;
@@ -145,7 +154,7 @@ header h2 {
   font-weight: normal;
   font-family: LeagueGothic, sans-serif;
   width: 170px;
-  text-shadow: 1px 1px 0 #000;
+  /* text-shadow: 1px 1px 0 #000; */
   text-transform: uppercase;
 }
 #tagline {
@@ -185,6 +194,7 @@ header {
 #contact a#contactnav {
   color: #b82924;
 }
+
 /*************** B A N N E R    S T Y L E ******************/
 #banner {
   position: relative;
@@ -194,7 +204,7 @@ header {
   position: absolute;
   bottom: 15%;
   left: 0;
-  width: 500px;
+  width: 600px;
   background-color: rgba(0, 0, 0, 0.8);
   padding: 5px 10px;
 }
@@ -220,11 +230,11 @@ header {
 /************* H O M E    C O N T E N T *******************/
 #line h1 {
   font-family: LeagueGothic, Impact, sans-serif;
-  font-weight: normal;
+  /* font-weight: normal; */
   font-size: 30px;
   text-transform: uppercase;
-  color: #f8f8f8;
-  text-shadow: 2px 2px 0 #000;
+  color: #000;
+  /* text-shadow: 2px 2px 0 #000; */
   text-align: center;
 }
 #line h1,
@@ -295,7 +305,7 @@ header {
   font-size: 30px;
   text-transform: uppercase;
   color: #f5f5f5;
-  text-shadow: 2px 2px 0 #000;
+  /* text-shadow: 2px 2px 0 #000; */
   text-align: center;
 }
 #sline h1,
@@ -304,6 +314,7 @@ header {
   *display: inline;
   zoom: 1;
   margin: 0 0 0 10px;
+  color: #000;
 }
 #sline {
   margin: 20px 0 10px 80px;
