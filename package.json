@@ -1,0 +1,15 @@
+{
+  "name": "rpp-peru",
+  "version": "1.0.0",
+  "description": "SSG Sergey",
+  "main": "index.html",
+  "scripts": {
+    "dev": "sergey --watch",
+    "start": "sergey"
+  },
+  "author": "@andresbenvenuto",
+  "license": "MIT",
+  "dependencies": {
+    "sergey": "^0.0.13"
+  }
+}
