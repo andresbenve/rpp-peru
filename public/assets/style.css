@@ -1,9 +1,9 @@
-/* html {
+html {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
 }
-
+/* 
 *,
 *after,
 *,
@@ -325,7 +325,7 @@ header {
 }
 #line {
   margin: 10px 10px 10px 10px;
-  margin-top: 100px;
+  margin-top: 30px;
   margin-bottom: 50px;
 }
 .sdline {
