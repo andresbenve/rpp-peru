@@ -64,3 +64,36 @@ svg {
   width: 100%;
   height: 100%;
 }
+
+
+text{
+  
+  
+  transform: translateY(50px);
+  animation: fadeIn 2s ease-out forwards;
+  display:inline-block;
+  
+}
+
+text:nth-of-type(2){
+  animation-delay: 0.5s;
+}
+
+text:nth-of-type(3){
+  animation-delay: 5s;
+}
+
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.crop{
+  margin-top: -130px;
+  margin-bottom: -170px;
+}
